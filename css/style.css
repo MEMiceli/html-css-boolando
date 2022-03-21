@@ -16,6 +16,12 @@
 }
 
 /* main */
-.product{
+.col{
+    width: calc(100% / 3 - 8px);
     float: left;
+}
+
+img{
+    width: 100%;
+    margin:0 4px;
 }
