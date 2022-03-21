@@ -53,3 +53,20 @@ img{
     background-color: green;
     left: 35px;
 }
+/* description */
+.brand{
+    font-size: 10px;
+}
+.description{
+    /* text-transform: uppercase; */
+    font-size: 15;
+}
+/* price */
+.price-after{
+    font-size: 15px;
+    color: red;
+}
+.price-before{
+    color: black;
+    text-decoration: line-through
+}
