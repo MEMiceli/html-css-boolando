@@ -29,6 +29,7 @@ img{
 .product,img{
     position:relative;
 }
+/* stickers */
 .heart{
     font-size: 20px;
     padding: 10px;
@@ -36,5 +37,19 @@ img{
     right: 0%;
     top: 10px;
     background-color: white;
-
+}
+.discount, .sustainability{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    padding: 5px;
+    bottom: 20px;
+}
+.discount{
+    background-color: red;
+    left: 0;
+}
+.sustainability{
+    background-color: green;
+    left: 35px;
 }
