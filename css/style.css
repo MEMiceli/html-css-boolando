@@ -24,6 +24,7 @@
 
 img{
     width: 100%;
+    display: block;
     
 }
 .product,img{
@@ -69,4 +70,15 @@ img{
 .price-before{
     color: black;
     text-decoration: line-through
+}
+/* changing image */
+
+.product .product-2{
+    display: none;
+}
+.product:hover .product-2{
+    display: block;
+}
+.product:hover .product-1{
+    display: none;
 }
