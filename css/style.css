@@ -19,9 +19,22 @@
 .col{
     width: calc(100% / 3 - 8px);
     float: left;
+    margin: 0 4px;
 }
 
 img{
     width: 100%;
-    margin:0 4px;
+    
+}
+.product,img{
+    position:relative;
+}
+.heart{
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    right: 0%;
+    top: 10px;
+    background-color: white;
+
 }
